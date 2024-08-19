@@ -122,8 +122,8 @@ export function SecondaryLayout() {
                   className="mx-auto rounded-full w-24 h-24 object-cover"
                   style={{ aspectRatio: "300/300", objectFit: "cover" }}
                 />
-                <h3 className="text-xl font-bold mt-4 mb-1">John Doe</h3>
-                <p className="text-muted-foreground">Software Engineer</p>
+                <h3 className="text-xl font-bold mt-4 mb-1">Cesar Castro</h3>
+                <p className="text-muted-foreground">Software Developer</p>
               </div>
               <div className="p-6 bg-background rounded-lg shadow-sm hover:shadow-md transition-shadow">
                 <Image
@@ -134,8 +134,8 @@ export function SecondaryLayout() {
                   className="mx-auto rounded-full w-24 h-24 object-cover"
                   style={{ aspectRatio: "300/300", objectFit: "cover" }}
                 />
-                <h3 className="text-xl font-bold mt-4 mb-1">Jane Smith</h3>
-                <p className="text-muted-foreground">UI/UX Designer</p>
+                <h3 className="text-xl font-bold mt-4 mb-1">Cesar Castro</h3>
+                <p className="text-muted-foreground">Tech Lead</p>
               </div>
               <div className="p-6 bg-background rounded-lg shadow-sm hover:shadow-md transition-shadow">
                 <Image
@@ -146,7 +146,7 @@ export function SecondaryLayout() {
                   className="mx-auto rounded-full w-24 h-24 object-cover"
                   style={{ aspectRatio: "300/300", objectFit: "cover" }}
                 />
-                <h3 className="text-xl font-bold mt-4 mb-1">Michael Johnson</h3>
+                <h3 className="text-xl font-bold mt-4 mb-1">Cesar Castro</h3>
                 <p className="text-muted-foreground">Full-Stack Developer</p>
               </div>
               <div className="p-6 bg-background rounded-lg shadow-sm hover:shadow-md transition-shadow">
@@ -158,7 +158,7 @@ export function SecondaryLayout() {
                   className="mx-auto rounded-full w-24 h-24 object-cover"
                   style={{ aspectRatio: "300/300", objectFit: "cover" }}
                 />
-                <h3 className="text-xl font-bold mt-4 mb-1">Emily Davis</h3>
+                <h3 className="text-xl font-bold mt-4 mb-1">Cesar Castro</h3>
                 <p className="text-muted-foreground">Project Manager</p>
               </div>
             </div>
