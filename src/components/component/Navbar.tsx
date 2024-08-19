@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
         className="flex items-center justify-center"
         prefetch={false}
       >
-        <Image src="/grizzlybyte-logo.svg" alt="Logo" width={150} height={100} />
+        <Image src="/grizzlybyte-logo.svg" alt="grizzlybyte logo" width={175} height={125} />
       </Link>
       <nav className="ml-auto hidden md:flex gap-4 sm:gap-6">
         <Link

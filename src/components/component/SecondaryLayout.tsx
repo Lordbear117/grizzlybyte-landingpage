@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -16,7 +15,7 @@ export function SecondaryLayout() {
           <div className="container mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="max-w-md space-y-4">
               <h1 className="text-4xl font-bold tracking-tight">
-                Unleash Your Digital Potential with GrizzlyByte
+                Unleash Your Digital Potential with GrizzlyByte Solutions
               </h1>
               <p className="text-muted-foreground text-lg">
                 We are a team of passionate software engineers dedicated to
@@ -115,10 +114,10 @@ export function SecondaryLayout() {
             <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
               <div className="p-6 bg-background rounded-lg shadow-sm hover:shadow-md transition-shadow">
                 <Image
-                  src="/placeholder.svg"
+                  src="/profile-photo.png"
                   width="300"
                   height="300"
-                  alt="Team Member"
+                  alt="Software Developer"
                   className="mx-auto rounded-full w-24 h-24 object-cover"
                   style={{ aspectRatio: "300/300", objectFit: "cover" }}
                 />
@@ -127,10 +126,10 @@ export function SecondaryLayout() {
               </div>
               <div className="p-6 bg-background rounded-lg shadow-sm hover:shadow-md transition-shadow">
                 <Image
-                  src="/placeholder.svg"
+                  src="/profile-photo.png"
                   width="300"
                   height="300"
-                  alt="Team Member"
+                  alt="Tech Lead"
                   className="mx-auto rounded-full w-24 h-24 object-cover"
                   style={{ aspectRatio: "300/300", objectFit: "cover" }}
                 />
@@ -139,10 +138,10 @@ export function SecondaryLayout() {
               </div>
               <div className="p-6 bg-background rounded-lg shadow-sm hover:shadow-md transition-shadow">
                 <Image
-                  src="/placeholder.svg"
+                  src="/profile-photo.png"
                   width="300"
                   height="300"
-                  alt="Team Member"
+                  alt="Full-Stack Developer"
                   className="mx-auto rounded-full w-24 h-24 object-cover"
                   style={{ aspectRatio: "300/300", objectFit: "cover" }}
                 />
@@ -151,10 +150,10 @@ export function SecondaryLayout() {
               </div>
               <div className="p-6 bg-background rounded-lg shadow-sm hover:shadow-md transition-shadow">
                 <Image
-                  src="/placeholder.svg"
+                  src="/profile-photo.png"
                   width="300"
                   height="300"
-                  alt="Team Member"
+                  alt="Project Manager"
                   className="mx-auto rounded-full w-24 h-24 object-cover"
                   style={{ aspectRatio: "300/300", objectFit: "cover" }}
                 />
@@ -177,20 +176,22 @@ export function SecondaryLayout() {
             </div>
             <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
               <div className="p-6 bg-background rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                <Image
-                  src="/placeholder.svg"
-                  width="400"
-                  height="300"
-                  alt="Portfolio Item"
-                  className="mx-auto rounded-lg w-full h-48 object-cover"
-                  style={{ aspectRatio: "400/300", objectFit: "cover" }}
-                />
+                <Link href="https://www.yutbelyink.me/" prefetch={false} target="_blank" rel="noopener noreferrer">
+                  <Image
+                    src="/yutbelyInk-preview.png"
+                    width="400"
+                    height="300"
+                    alt="Portfolio Item"
+                    className="mx-auto rounded-lg w-full h-48 object-cover"
+                    style={{ aspectRatio: "400/300", objectFit: "cover" }}
+                  />
+                </Link>
                 <h3 className="text-xl font-bold mt-4 mb-1">
-                  Acme Corp Website
+                  YutbelyInk Landing Page
                 </h3>
                 <p className="text-muted-foreground">
-                  Designed and developed a modern and responsive website for
-                  Acme Corporation.
+                  Designed and developed a modern and responsive landing page
+                  for YutbelyInk Tattoos.
                 </p>
               </div>
               <div className="p-6 bg-background rounded-lg shadow-sm hover:shadow-md transition-shadow">
@@ -263,7 +264,7 @@ export function SecondaryLayout() {
       </main>
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t">
         <p className="text-xs text-muted-foreground">
-          &copy; 2024 GrizzlyByte. All rights reserved.
+          &copy; 2024 GrizzlyByte Solutions. All rights reserved.
         </p>
         <nav className="sm:ml-auto flex gap-4 sm:gap-6">
           <Link
